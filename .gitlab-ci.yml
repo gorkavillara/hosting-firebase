@@ -1,4 +1,5 @@
 build:
+  image: node:16
   script:
     - npm install
     - npm build
