@@ -9,7 +9,8 @@ build:
     - npm install
     - npm run build
   artifacts:
-    - dist
+    paths:
+      - dist/
 
 deploy to netlify:
   stage: deploy
