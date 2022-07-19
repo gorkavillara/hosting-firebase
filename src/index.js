@@ -1,9 +1,7 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import "./App.scss"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./App.scss";
+import "../firebase";
 
-const App = () => {
-    return (<h1>React App - Segunda versión con webpack</h1>)
-}
-
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"));
